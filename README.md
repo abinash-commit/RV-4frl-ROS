@@ -41,6 +41,7 @@ Switch to Auto Mode, go to RUN>OPERATION select ur programm, turn servo ON and h
 ## Launch ur ROS file
 For our RV-4frl we are gonna launch   
 ```
-
+ros2 launch melfa_bringup rv4frl_control.launch.py use_fake_hardware:=false controller_type:=D robot_ip:=192.168.137.30 packet_lost_log:=0
 ```
+Change the robot IP from above(#robot-ip)
 
