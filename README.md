@@ -51,4 +51,8 @@ Then launch
 ros2 launch melfa_rv4frl_moveit_config rv4frl_moveit.launch.py
 ```
 This is to launch the Move-it to control the arm, it have interactive markers or joint command option.
+![Screenshot from 2025-06-21 11-56-47](https://github.com/user-attachments/assets/ed099404-64c4-416a-a3c6-fbaa0393cf9f)
+
+
+NOW WE ARE ALL SET TO OPERATE THE ARM FROM RVIZ.
 
