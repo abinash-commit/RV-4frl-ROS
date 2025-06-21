@@ -10,8 +10,8 @@ Colcon build ur workspace and source.
 This workspace have content for various type of mitsubushi ARMs, we are going to use for RV-4FRL.  
 (u can clear out the workspce from other for ease of reading)
 
-## Connecting ur robot to ROS
-Connect ur robot to ur linux system with lan cable and setup the IPV4 manually   
+## Connecting ur robot to ROS 
+Connect ur robot to ur linux system with lan cable and setup the IPV4 manually, we are gonna use this IP from now on.   
 Keep the gateway and mask same as ur robot.  
 ![Screenshot from 2025-06-21 11-59-02](https://github.com/user-attachments/assets/7eba99e3-4232-4ae1-9a80-b0e4ebf2daaa)
 
@@ -34,3 +34,13 @@ Mxt 1,1,10 'The first 1 refers to the IP address from the line above.
            'The 10 refers to a 10ms low pass filter.
 End 
 ```
+
+## Code Run TEACH
+Switch to Auto Mode, go to RUN>OPERATION select ur programm, turn servo ON and hit "START".   
+
+## Launch ur ROS file
+For our RV-4frl we are gonna launch   
+```
+
+```
+
