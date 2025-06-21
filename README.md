@@ -40,6 +40,9 @@ End
 
 ## Code Run TEACH
 Switch to Auto Mode, go to RUN>OPERATION select ur programm, turn servo ON and hit "START".   
+  
+![image](https://github.com/user-attachments/assets/84952989-a190-433f-94d9-79764b81c1b0)
+(Use the function key to toggle "START" and "SV.ON")
 
 ## Launch ur ROS file
 For our RV-4frl we are gonna launch   
