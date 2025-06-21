@@ -10,7 +10,13 @@ Colcon build ur workspace and source.
 This workspace have content for various type of mitsubushi ARMs, we are going to use for RV-4FRL.  
 (u can clear out the workspce from other for ease of reading)
 
-Conn
+Connect ur robot to ur linux system with lan cable and setup the IPV4 manually   
+Keep the gateway and mask same as ur robot.  
+![Screenshot from 2025-06-21 11-59-02](https://github.com/user-attachments/assets/7eba99e3-4232-4ae1-9a80-b0e4ebf2daaa)
+
+Robot IP   
+U can get the robot ip gateway and mask from the teach pendant "param" option.   
+
 
 Setup the program in Teach Pendant, change the IP address to ur linux system IP.
 '''
