@@ -13,11 +13,13 @@ This workspace have content for various type of mitsubushi ARMs, we are going to
 ## Connecting ur robot to ROS 
 Connect ur robot to ur linux system with lan cable and setup the IPV4 manually, we are gonna use this IP from now on.  
 TO set click on the settings loggo>IPV4,  
-Keep the gateway and mask same as ur robot.  
+Keep the gateway and mask same as ur robot.   
+
 ![Screenshot from 2025-06-21 11-59-02](https://github.com/user-attachments/assets/7eba99e3-4232-4ae1-9a80-b0e4ebf2daaa)
 
 ## Robot IP   
 U can get the robot ip gateway and mask from the teach pendant "param" option.   
+
 ![image](https://github.com/user-attachments/assets/e34d2e45-d141-4b90-9026-c3965d7c7560)
 
 For ip use "NETIP"  
@@ -51,7 +53,8 @@ Then launch
 ```
 ros2 launch melfa_rv4frl_moveit_config rv4frl_moveit.launch.py
 ```
-This is to launch the Move-it to control the arm, it have interactive markers or joint command option.
+This is to launch the Move-it to control the arm, it have interactive markers or joint command option.  
+
 ![Screenshot from 2025-06-21 11-56-47](https://github.com/user-attachments/assets/ed099404-64c4-416a-a3c6-fbaa0393cf9f)
 
 
