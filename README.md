@@ -20,7 +20,7 @@ Keep the gateway and mask same as ur robot.
 ## Robot IP   
 U can get the robot ip gateway and mask from the teach pendant "param" option.   
 
-![image](https://github.com/user-attachments/assets/e34d2e45-d141-4b90-9026-c3965d7c7560)
+![image](https://github.com/user-attachments/assets/1fccfdf1-e5f0-4362-bfb1-a93ea6376efd)
 
 For ip use "NETIP"  
 For gateway "NETGW"  
