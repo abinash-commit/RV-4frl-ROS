@@ -25,12 +25,12 @@ For mask "NETMSK"
 
 
 ## Robot Code
-Setup the program in Teach Pendant, change the IP address to ur linux system IP.
-'''
+Setup the program in Teach Pendant, change the IP address to ur linux system IP.   
+```
 Servo On
 Open "ENET: 192.168.0.100" As #1 'Insert your Linux Machine IP address in this line. Open stores the IP address into variable 1.
 Mxt 1,1,10 'The first 1 refers to the IP address from the line above. 
            'The second 1 configures Mxt to expect Joint commands. 
            'The 10 refers to a 10ms low pass filter.
 End 
-'''
+```
