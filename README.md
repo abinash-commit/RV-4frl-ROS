@@ -11,7 +11,8 @@ This workspace have content for various type of mitsubushi ARMs, we are going to
 (u can clear out the workspce from other for ease of reading)
 
 ## Connecting ur robot to ROS 
-Connect ur robot to ur linux system with lan cable and setup the IPV4 manually, we are gonna use this IP from now on.   
+Connect ur robot to ur linux system with lan cable and setup the IPV4 manually, we are gonna use this IP from now on.  
+TO set click on the settings loggo>IPV4,  
 Keep the gateway and mask same as ur robot.  
 ![Screenshot from 2025-06-21 11-59-02](https://github.com/user-attachments/assets/7eba99e3-4232-4ae1-9a80-b0e4ebf2daaa)
 
