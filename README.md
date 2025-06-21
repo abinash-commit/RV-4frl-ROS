@@ -17,6 +17,12 @@ Keep the gateway and mask same as ur robot.
 
 ## Robot IP   
 U can get the robot ip gateway and mask from the teach pendant "param" option.   
+![image](https://github.com/user-attachments/assets/e34d2e45-d141-4b90-9026-c3965d7c7560)
+
+For ip use "NETIP"  
+For gateway "NETGW"  
+For mask "NETMSK"
+
 
 ## Robot Code
 Setup the program in Teach Pendant, change the IP address to ur linux system IP.
