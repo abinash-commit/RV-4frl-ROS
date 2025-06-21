@@ -43,5 +43,12 @@ For our RV-4frl we are gonna launch
 ```
 ros2 launch melfa_bringup rv4frl_control.launch.py use_fake_hardware:=false controller_type:=D robot_ip:=192.168.137.30 packet_lost_log:=0
 ```
-Change the robot IP from above(#robot-ip)
+Change the robot IP from [Robot IP](#robot-ip)  
+This will connect the Robot to the system.  
+
+Then launch   
+```
+ros2 launch melfa_rv4frl_moveit_config rv4frl_moveit.launch.py
+```
+This is to launch the Move-it to control the arm, it have interactive markers or joint command option.
 
